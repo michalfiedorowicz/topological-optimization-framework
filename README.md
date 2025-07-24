@@ -15,27 +15,27 @@ The Topological Optimization Framework is a next-generation, industrial-scale so
 - **User-Friendly API & UI**: RESTful services and a React/Tailwind web dashboard for scheduling jobs, visualizing optimizations, and exporting G-code or native CAD formats.
 
 ## Roadmap
-### Phase 1: Core Modeling & Numerical Engine (Q4 2025)
+### Phase 1: Core Modeling & Numerical Engine (Q4 2026)
 - Develop anisotropic elasticity models for wood and composites.
 - Implement finite element analysis (FEA) core in C++ with Python bindings.
 - Validate against analytical benchmarks and COMSOL Multiphysics.
 
-### Phase 2: AI-Accelerated Optimization (Q1 2026)
+### Phase 2: AI-Accelerated Optimization (Q1 2027)
 - Train deep surrogate models on parameter sweeps (COMSOL & FEA data).
 - Integrate reinforcement learning (RL) loop using OpenAI Gym-style environment.
 - Benchmark RL agent vs. traditional density-based methods (SIMP, level-set).
 
-### Phase 3: Cloud-Native Deployment & CI/CD (Q2 2026)
+### Phase 3: Cloud-Native Deployment & CI/CD (Q2 2027)
 - Containerize modules with Docker and helm charts.
 - Deploy Kubernetes cluster templates for GPU autoscaling.
 - Set up GitHub Actions for testing, linting, and performance regression.
 
-### Phase 4: Digital Twin & Manufacturing Integration (Q3 2026)
+### Phase 4: Digital Twin & Manufacturing Integration (Q3 2027)
 - Build CAD/CAM plugins (Fusion 360, SolidWorks) with WebSocket sync.
 - Implement post-process API for scanning 3D-printed/sample parts via Artec/Einscan.
 - Generate compliance reports (ISO standards, cost metrics).
 
-### Phase 5: Production Rollout & Industry Partnerships (Q4 2026)
+### Phase 5: Production Rollout & Industry Partnerships (Q4 2027)
 - Pilot with furniture manufacturers and material suppliers.
 - Collect real-world data for continuous model refinement.
 - Open ecosystem for third-party material models and optimization strategies.
